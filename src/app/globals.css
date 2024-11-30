@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: rgb(54,54,54);
+background: linear-gradient(90deg, rgb(22, 22, 22) 0%, rgb(83, 83, 83) 50%, rgb(161, 161, 161) 100%);
+  height: max-content;
+}
